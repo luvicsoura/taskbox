@@ -9,6 +9,8 @@ import { TaskModule } from './task/task.module';
 import { Store, NgxsModule } from '@ngxs/store';
 import { TasksState } from '../state/task.state';
 
+// test
+
 export default {
   component: PureInboxScreenComponent,
   decorators: [
