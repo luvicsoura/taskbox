@@ -5,6 +5,7 @@
         [defaultChecked]="task?.state === 'TASK_ARCHIVED'"
         disabled="true"
         name="checked"
+        style="background: red;"
     />
     <span class="checkbox-custom" (click)="onArchive(task.id)"></span>
     </label>
